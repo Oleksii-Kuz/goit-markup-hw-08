@@ -1,0 +1,24 @@
+.action-button {
+	width: 100%;
+	max-width: 200px;
+	margin: 0 auto;
+	background: var(--interactiveColor);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	padding: 10px 0;
+	border-radius: 4px;
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 0.06em;
+	color: var(--colorWhite);
+
+	@media screen and (min-width: 1200px) {
+		max-width: 216px;
+		padding: 10px 0;
+	}
+}

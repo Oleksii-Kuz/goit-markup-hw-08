@@ -1,0 +1,36 @@
+.container {
+	max-width: var(--containerWidth);
+	margin: 0 auto;
+	padding: 0 15px;
+
+	@media screen and (min-width: 1200px) {
+		padding: 0;
+	}
+}
+
+.section {
+	padding: 60px 0;
+
+	@media screen and (min-width: 1200px) {
+		padding: 94px 0;
+	}
+}
+
+.title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: var(--textLetterSpacing);
+
+	@media screen and (min-width: 1200px) {
+		font-size: 36px;
+		line-height: 1.2;
+	}
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+}
