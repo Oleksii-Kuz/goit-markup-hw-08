@@ -187,6 +187,14 @@ img {
             flex-direction: column;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 
 .header-container {
   display: -webkit-box;
