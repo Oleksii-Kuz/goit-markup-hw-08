@@ -2,19 +2,38 @@
 	&__navigation {
 		margin-bottom: 50px;
 	}
+
+	.container {
+		@media screen and (min-width: 768px) {
+			padding: 0;
+		}
+	}
 }
 
 .projects-wrapper {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	gap: 30px;
+
+	@media screen and (min-width: 768px) {
+		justify-content: flex-start;
+	}
 }
 
 .projects-item {
 	width: 100%;
-	max-width: 370px;
+	max-width: 450px;
 	background-color: var(--colorWhite);
 	position: relative;
+
+	@media screen and (min-width: 768px) {
+		max-width: 354px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		max-width: 370px;
+	}
 
 	&__wrapper {
 		padding: 20px 24px;
